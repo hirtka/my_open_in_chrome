@@ -1,0 +1,9 @@
+{
+    "name": "My Open In Chrome",
+    "description": "Open url by chrome.exe",
+    "manifest_version": 3,
+    "background" : { "service_worker": "background.js" },
+    "permissions": [ "contextMenus", "activeTab"],
+    "host_permissions": [ "<all_urls>" ],
+    "version": "1.0"
+}
